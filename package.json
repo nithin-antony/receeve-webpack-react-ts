@@ -4,6 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:nithin-antony/webpack-react-ts.git",
   "license": "MIT",
+  "engines": {
+    "node": ">=17"
+  },
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
