@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import './style.css'
+import React, { useState } from 'react'
+import './index.scss'
 
 export const App = () => {
   const [count, setCount] = useState(0)
