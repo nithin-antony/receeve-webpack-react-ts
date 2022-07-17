@@ -1,7 +1,7 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import Table from './Table'
+import { Table } from './Table'
 
 export default {
   title: 'Component/Table',
@@ -15,8 +15,8 @@ export default {
 const Template: ComponentStory<typeof Table> = (args) => <Table {...args} />
 
 export const Default = Template.bind({})
-Default.args = {
-  user: {
-    name: 'Jane Doe',
-  },
-}
+// Default.args = {
+//   // user: {
+//   //   name: 'Jane Doe',
+//   // },
+// }

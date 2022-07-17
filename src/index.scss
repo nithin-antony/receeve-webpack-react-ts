@@ -1,1 +1,11 @@
+@import 'styles/color';
 @import 'components/Table/table';
+
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url(fonts/AvenirLTStd-Roman.otf) format('otf');
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}

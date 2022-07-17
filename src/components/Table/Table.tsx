@@ -1,11 +1,12 @@
 import React from 'react'
+import TableBody from './TableBody'
+import TableHead from './TableHead'
 
-const Table = () => {
+export const Table = ({ tableData, columns }) => {
   return (
-    <>
-      <h1>Table</h1>
-    </>
+    <table className="custom-table">
+      <TableHead columns={columns} />
+      <TableBody columns={columns} tableData={tableData} />
+    </table>
   )
 }
-
-export default Table
